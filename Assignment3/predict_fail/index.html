@@ -1,0 +1,40 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>mnist</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.0.0/dist/tf.min.js"></script>
+    <script src="../js/p5.js"></script>
+    <script src="../js/p5.dom.js"></script>
+    <script src="../js/mnist.js"></script>
+
+    <script src="sketch.js"></script>
+
+    <style>
+        body {
+            font-size: 30pt;
+        }
+
+        .correct {
+            color: #00CC00
+        }
+
+        .wrong {
+            color: #CC0000
+        }
+    </style>
+</head>
+<body>
+<div id="container"></div>
+<p id="info">
+    <!-- Label: <span id="label"></span><br/>
+    Guess: <span id="guess"></span><br/> -->
+    <!-- <br/> -->
+    <!-- Testing: <span id="percent"></span><br/> -->
+    User Guess: <span id="user_guess"></span>
+</p>
+</body>
+</html>
