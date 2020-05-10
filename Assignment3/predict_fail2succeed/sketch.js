@@ -48,7 +48,9 @@ function guessUserDigit() {
   img.resize(28, 28);
   img.loadPixels();
   for (let i = 0; i < 784; i++) {
-    inputs[i] = img.pixels[i * 4] / 255;
+    // inputs[i] = img.pixels[i * 4] / 255;
+    // Important for predication. Attention!
+    inputs[i] = img.pixels[i * 4];
   }
   if (pre_inputs) {
   	console.log(pre_inputs==inputs);
