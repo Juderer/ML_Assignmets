@@ -1,5 +1,7 @@
-# ML_Assignmets
+# ML_Assignments
 ML Assignments by using p5.js, ml5.js and tensorflow.js.
+
+*There is a spelling mistake in the repo name.*
 
 ## Reference
 ### p5.js
